@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header
         titulo="Example #"
-        numero={8}
+        numero={9}
       />
       <Body
         texto="Este es un texto"
