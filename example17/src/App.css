@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.App-logo {
+  height: 18vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #f1e9d7;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Buscador{
+  display: flex;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto; /* centra horizontalmente */
+}
+
+.Lista{
+  display: flex;
+  flex-direction: column;
+}
+
+.Lista-contenido{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Lista-pelicula{
+  margin: 1vw;
+  width: 30vw;
+}
